@@ -1,13 +1,17 @@
-"""One Line, One Chill — single-sentence horror entry.
+"""One Line, One Chill - single-sentence horror entry.
 
 Writes one line of horror to /output/entry.txt.
 Deterministic: the line is a fixed constant, no randomness,
-no I/O besides the single output write, stdlib only.
+no network, no input, stdlib only.
 """
 
 import os
 
-LINE = "The ultrasound showed two heartbeats, and the doctor smiled and said the second wasn't the baby's."
+LINE = (
+    "I watched the feed from my bed as, at 3:17 in the morning, "
+    "a man wearing my face and my coat stood waiting on my porch, smiled "
+    "straight into the doorbell camera, and mouthed: let me in."
+)
 
 
 def main() -> None:
